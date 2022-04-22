@@ -143,6 +143,12 @@ margin-left: 50px;
   margin-left: auto;
   background: #2F303A;
   text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url(../img/hero.jpg);
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title{
   font-weight: 900;
@@ -322,8 +328,7 @@ border-radius: 0px 0px 4px 4px;
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
-  
- }
+  }
 .footer-logo{
   font-family: 'Raleway',
   sans-serif;
@@ -439,13 +444,7 @@ text-decoration: none;
   1px 4px 6px rgba(0, 0, 0, 0.16);
   } 
 
-  .project-item{
-    /* background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box; */
-  }
-
-
+  
   .project-title {
   font-weight: 700;
   font-size: 18px;
