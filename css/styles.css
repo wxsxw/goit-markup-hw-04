@@ -223,9 +223,7 @@ p {
 .features-list {
   display: flex;
 }
-.item {
-  outline: 1px solid tomato;
-}
+
 .features-list .item + .item {
   margin-left: 40px;
 }
@@ -236,8 +234,6 @@ p {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-
-  outline: 1px solid tomato;
 }
 
 .features-title {
@@ -530,9 +526,19 @@ p {
   padding-bottom: 94px;
   padding-top: 94px;
 }
+.project-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
+.project-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .project-content {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .project-list {
@@ -549,8 +555,8 @@ p {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16); */
 }
 
 .project-title {
