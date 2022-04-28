@@ -407,6 +407,7 @@ p {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -454,7 +455,43 @@ p {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-white);
+  margin-bottom: 20px;
+}
+.footer-join {
+  margin-left: 70px;
+}
+.footer-join-list {
+  display: flex;
+  justify-content: center;
+}
+.join-item + .join-item {
+  margin-left: 10px;
+}
+.join-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.join-link:hover {
+  background-color: var(--color-accent);
+  color: var(--color-text-white);
+}
+.join-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-text-white);
+}
 /* ----- PORTFOLIO--------- */
 /* ------ filters---------- */
 .filters-list {
